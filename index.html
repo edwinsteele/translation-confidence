@@ -3,64 +3,7 @@
   <TITLE>Job Confidence</TITLE>
 	<meta charset="utf-8">
 	<link href="/css/bigfoot-number.css" rel="stylesheet" type="text/css">
-  <style type="text/css">
-
-.major {
-  text-decoration: none;
-  display: inline-table;
-}
-
-.major:after {
-  content: "";
-  border-bottom: 0.1em solid red;
-  display: table-caption;
-  caption-side: bottom;
-  position: relative;
-  margin-top:-0.15em;
-}
-
-.minor {
-  text-decoration: none;
-  display: inline-table;
-}
-
-.minor:after {
-  content: "";
-  border-bottom: 0.1em solid orange;
-  display: table-caption;
-  caption-side: bottom;
-  position: relative;
-  margin-top:-0.15em;
-}
-
-.clarification {
-  text-decoration: none;
-  display: inline-table;
-}
-
-.clarification:after {
-  content: "";
-  border-bottom: 0.1em solid grey;
-  display: table-caption;
-  caption-side: bottom;
-  position: relative;
-  margin-top:-0.15em;
-}
-
-.verse-number {
-  font-size: x-small;
-	vertical-align: super;
-	padding-right: 5
-}
-
-.initial-verse-line {
-}
-
-.additional-verse-line {
-  margin-left: 20;
-}
-
-  </style>
+	<link href="/css/translation-confidence.css" rel="stylesheet" type="text/css">
 </HEAD>
 <BODY>
 <h1>Components of Confidence</h1>
@@ -160,13 +103,6 @@
 </ol></div>
 <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="js/bigfoot.min.js"></script>
-<!-- will need to externalise this because of CSP -->
-<script type="text/javascript">
-    var bigfoot = $.bigfoot({
-	positionContent: true,
-	}
-    );
-</script>
-
+<script type="text/javascript" src="js/translation-confidence.js"></script>
 </BODY>
 </HTML>

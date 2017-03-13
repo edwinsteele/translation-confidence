@@ -1,0 +1,54 @@
+.major {
+  text-decoration: none;
+  display: inline-table;
+}
+
+.major:after {
+  content: "";
+  border-bottom: 0.1em solid red;
+  display: table-caption;
+  caption-side: bottom;
+  position: relative;
+  margin-top:-0.15em;
+}
+
+.minor {
+  text-decoration: none;
+  display: inline-table;
+}
+
+.minor:after {
+  content: "";
+  border-bottom: 0.1em solid orange;
+  display: table-caption;
+  caption-side: bottom;
+  position: relative;
+  margin-top:-0.15em;
+}
+
+.clarification {
+  text-decoration: none;
+  display: inline-table;
+}
+
+.clarification:after {
+  content: "";
+  border-bottom: 0.1em solid grey;
+  display: table-caption;
+  caption-side: bottom;
+  position: relative;
+  margin-top:-0.15em;
+}
+
+.verse-number {
+  font-size: x-small;
+  vertical-align: super;
+  padding-right: 5;
+}
+
+.initial-verse-line {
+}
+
+.additional-verse-line {
+  margin-left: 20;
+}
