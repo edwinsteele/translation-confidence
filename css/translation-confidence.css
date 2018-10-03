@@ -1,3 +1,7 @@
+.passage {
+  margin-left: 10%;
+}
+
 .major {
   text-decoration: none;
   display: inline-table;
@@ -50,5 +54,5 @@
 }
 
 .additional-verse-line {
-  margin-left: 20;
+  margin-left: 5%;
 }
